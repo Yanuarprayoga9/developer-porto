@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useEffect } from "react";
 import Head from "next/head";
 import Layout from "@/components/layout";
-import profilePic from "../../public/images/profile/Brian-editedbg.png";
+import profilePic from "../../public/images/profile/profil-removebg-preview (1).png";
 import { useRef } from "react";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
@@ -39,7 +39,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>Brian Williams | About Page</title>
+        <title>Yanuar Prayoga | About Page</title>
         <meta name="description" content="any description" />
       </Head>
       <TransitionEffect />
@@ -64,11 +64,7 @@ const about = () => {
                 enjoyable experiences for users.
               </p>
               <p className="font-medium">
-                Whether I am working on a website, mobile app, or other digital
-                product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+              I am a 4th-semester student at Politeknik Negeri Cilacap with a passion for software development. I have 1 year of experience as a full-stack web developer, specializing in Node.js, Express, React, and Laravel technologies. I actively participate in programming organizations on my campus as the head of the web division. I am very interested in knowledge sharing with others the same passion as me.
               </p>
             </div>
 
@@ -83,14 +79,14 @@ const about = () => {
               />
             </div>
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
-              <div className="flex flex-col items-end justify-center xl:items-center">
+              {/* <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumbers value={8} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Satisfied Clients
                 </h2>
-              </div>
+              </div> */}
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
@@ -103,7 +99,7 @@ const about = () => {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={2} />+
+                  <AnimatedNumbers value={1} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Years of Experience
