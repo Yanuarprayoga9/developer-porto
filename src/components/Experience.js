@@ -54,12 +54,12 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
           <Details
-            position="Web Developer"
-            company="RikerWeb"
-            companyLink="/"
+            position="Full Stack Web developer"
+            company="Tefa Jti"
+            companyLink="https://www.linkedin.com/company/teaching-factory-jkb"
             time="2023-Present"
-            address="Colorado Springs, CO"
-            work="At RikerWeb, I build websites with HTML/CSS, JS and Tailwind CSS. I follow design mockups and wireframes, and work with backend developers. I use Tailwind CSS utilities and components to create custom layouts and styles. I have built websites for a HVAC company, a food delivery service and more."
+            address="Cilacap,Jawa Tengah"
+            work="•	Worked collaboratively with a team on the ongoing development of a Mini ERP System for Politeknik Negeri Cilacap. My responsibilities include backend development, specifically building REST APIs using Laravel and ensuring secure API authentication 2023."
           />
         </ul>
       </div>

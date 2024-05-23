@@ -45,26 +45,24 @@ const about = () => {
       <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
-          <AnimatedText text="Curiosity Leads Creativity!" className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
+          <AnimatedText
+            text="Curiosity Leads Creativity!"
+            className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
+          />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                 About Me
               </h2>
+
               <p className="font-medium">
-                Hello! My name is Brian, I am a web developer and UI/UX designer
-                with a passion for creating beautiful, functional, and
-                user-centered digital experiences. With 2 years of experience in
-                the field. I am always looking for new and innovative ways to
-                bring my clients visions to life.
-              </p>
-              <p className="my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty, it is about solving problems and creating intuitive,
-                enjoyable experiences for users.
-              </p>
-              <p className="font-medium">
-              I am a 4th-semester student at Politeknik Negeri Cilacap with a passion for software development. I have 1 year of experience as a full-stack web developer, specializing in Node.js, Express, React, and Laravel technologies. I actively participate in programming organizations on my campus as the head of the web division. I am very interested in knowledge sharing with others the same passion as me.
+                I am a 4th-semester student at Politeknik Negeri Cilacap with a
+                passion for software development. I have 1 year of experience as
+                a full-stack web developer, specializing in Node.js, Express,
+                React, and Laravel technologies. I actively participate in
+                programming organizations on my campus as the head of the web
+                division. I am very interested in knowledge sharing with others
+                the same passion as me.
               </p>
             </div>
 
@@ -74,7 +72,7 @@ const about = () => {
                 src={profilePic}
                 alt="Brian"
                 className="w-full h-auto rounded-2xl"
-                priority 
+                priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
               />
             </div>

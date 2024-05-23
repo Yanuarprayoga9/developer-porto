@@ -5,8 +5,9 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import StarShower from "../../public/images/projects/Brians_Stuff-Star_Shower.webp";
-import Omnifood from "../../public/images/projects/Brians_Stuff-Omnifood_Project.webp";
+import StarShower from "../../public/images/projects/image1.png";
+import Omnifood from "../../public/images/projects/image2.png";
+import Omnifood1 from "../../public/images/projects/image.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -119,60 +120,40 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Star Shower"
+                title="Blog app"
                 img={StarShower}
-                summary="A randomly generated star shower effect with collision."
-                link="https://starshowerbkw.netlify.app/"
+                summary="Build a Web Blog with more than 10 articles. Developed a role-based access control dashboard with Google authentication via
+                Firebase. Managed users, posts, and comments using MongoDB, Express, and React.js. Utilized Redux for global state
+                management (2023). 
+                "
+                link="https://sieghart-blog.vercel.app/"
                 type="Featured Project"
-                github="https://github.com/bwilliams91/Star-Shower"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Omnifood Food Delivery"
-                img={Omnifood}
-                link="https://starshowerbkw.netlify.app/"
-                type="Project"
-                github="https://github.com/bwilliams91/Star-Shower"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Omnifood Food Delivery"
-                img={Omnifood}
-                link="https://starshowerbkw.netlify.app/"
-                type="Project"
                 github="https://github.com/bwilliams91/Star-Shower"
               />
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                title="Star Shower"
-                img={StarShower}
-                summary="A randomly generated star shower effect with collision."
-                link="https://starshowerbkw.netlify.app/"
+                title="Dashboard store"
+                img={Omnifood}
+                summary="Developed an ecommerce project inclusive of a dashboard API to facilitate store and payment management. The API was utilized by a store app built with Next.js, Stripe for payments, Tailwind and shadcn for styling, and Zustand for state management (2024). 
+                "
+                link="https://dashboard-cms-admin.vercel.app/ "
                 type="Featured Project"
-                github="https://github.com/bwilliams91/Star-Shower"
+                github="https://github.com/Yanuarprayoga9/Dashboard-CMS_ADMIN"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Omnifood Food Delivery"
-                img={Omnifood}
-                link="https://starshowerbkw.netlify.app/"
-                type="Project"
-                github="https://github.com/bwilliams91/Star-Shower"
+            <div className="col-span-12">
+              <FeaturedProject
+                title="store"
+                img={Omnifood1}
+                summary="Developed an ecommerce project inclusive of a dashboard API to facilitate store and payment management. The API was utilized by a store app built with Next.js, Stripe for payments, Tailwind and shadcn for styling, and Zustand for state management (2024). "
+                link="https://store-path-client.vercel.app/"
+                type="Featured Project"
+                github="https://github.com/Yanuarprayoga9/store-path_CLIENT"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Omnifood Food Delivery"
-                img={Omnifood}
-                link="https://starshowerbkw.netlify.app/"
-                type="Project"
-                github="https://github.com/bwilliams91/Star-Shower"
-              />
-            </div>
+            
+          
           </div>
         </Layout>
       </main>
